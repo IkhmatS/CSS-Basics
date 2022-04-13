@@ -41,9 +41,16 @@ nav ul {
   margin: 0px;
   list-style: none;
 }
+.nav-link li:hover {
+  color: rgb(69, 164, 164);
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#book-descrip {
+  text-align: left;
 }
