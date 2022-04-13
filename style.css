@@ -19,7 +19,8 @@ img {
 }
 /*credential, name of author*/
 #novel-author {
-  bottom: 10px;
+  bottom: 50px;
+  padding: 10px;
   margin-left: 19%;
 }
 /*name of the portfolio*/
@@ -52,7 +53,6 @@ nav ul {
 .nav-link li:hover {
   color: rgb(69, 164, 164);
 }
-
 /*Credit starts*/
 /*Credit to Learn Web on YouTube for showing me the following-https://www.youtube.com/watch?v=S9PpWeN-MrU*/
 * {
