@@ -4,8 +4,8 @@ body {
   background-color: rgb(62, 175, 179);
 }
 img {
-  position: absolute;
-  right: 150px;
+  /* position: absolute;
+  right: 150px; */
   width: 400px;
   height: 500px;
   border: 5px solid rgb(229, 231, 107);
@@ -19,15 +19,17 @@ img {
   margin-left: 19%;
 }
 #top-title {
-  display: inline;
   font-family: Franklin Gothic Medium;
   color: rgb(255, 255, 255);
   font: 400px;
-  text-align: left;
 }
 header {
   background: rgb(0, 0, 0);
   padding: 20px;
+}
+
+nav {
+  text-align: right;
 }
 
 .nav-link li {
