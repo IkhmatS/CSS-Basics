@@ -1,66 +1,35 @@
 /** @format */
+
 body {
   background-color: rgb(62, 175, 179);
 }
-/*Image of novel An emotion of great delight by Tahereh Mafi*/
 img {
   position: absolute;
-  right: 40px;
-  width: 300px;
-  height: 400px;
+  right: 150px;
+  width: 400px;
+  height: 500px;
   border: 5px solid rgb(229, 231, 107);
 }
-/*name of the portfolio*/
+#first-title {
+  bottom: 5px;
+  margin-left: 15%;
+}
+#novel-author {
+  bottom: 5px;
+  margin-left: 19%;
+}
 #top-title {
   display: inline;
-  font-family: sans-serif;
+  font-family: Franklin Gothic Medium;
   color: rgb(255, 255, 255);
   font: 400px;
   text-align: left;
 }
-/*This display the shaeded background for the the nav bar. It is displayed behind it*/
 header {
   background: rgb(0, 0, 0);
   padding: 20px;
 }
-/*used for a part of nav display*/
-nav ul {
-  float: right;
-}
-/*display for nav links external display*/
+
 .nav-link li {
   display: inline;
-  color: white;
-  font-size: 18px;
-  text-transform: uppercase;
-  padding: 0px 32px;
-  margin: 0px;
-  list-style: none;
-}
-/*Allows the nav elements to change color*/
-.nav-link li:hover {
-  color: rgb(140, 167, 172);
-}
-/*Credit starts*/
-/*Credit to Learn Web on YouTube for showing me the following-https://www.youtube.com/watch?v=S9PpWeN-MrU*/
-/*Display of the box and font style used for nav elements*/
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-/*Credit ends*/
-
-/*Paragraph positioning*/
-p {
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 90px;
-  margin: 10px;
-  bottom: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.her-name {
-  font-size: 50px;
 }
