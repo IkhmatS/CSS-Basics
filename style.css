@@ -10,19 +10,23 @@ img {
   height: 500px;
   border: 5px solid rgb(229, 231, 107);
 }
+/*Style for the title of the book*/
 #first-title {
   bottom: 5px;
   margin-left: 15%;
 }
+/*Style for name of author beside in the boo k area*/
 #novel-author {
   bottom: 5px;
   margin-left: 19%;
 }
+/*Style for the top title "Book Portfolio"*/
 #top-title {
   font-family: Franklin Gothic Medium;
   color: rgb(255, 255, 255);
   font: 400px;
 }
+/*Displays back border for nav bar on top*/
 header {
   background: rgb(0, 0, 0);
   padding: 20px;
@@ -31,7 +35,15 @@ header {
 nav {
   text-align: right;
 }
-
+/*Use to display more style to the nav links*/
 .nav-link li {
-  display: inline;
+  display: inline-block;
+  color: aliceblue;
+  list-style: none;
+  font-size: 20px;
+  padding: 0px 20px;
+}
+/*Display hover effect to nav links*/
+.nav-link li:hover {
+  color: aquamarine;
 }
